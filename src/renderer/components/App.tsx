@@ -1,3 +1,5 @@
 import React from "react";
 
-export const App = () => <h1 className="text-2xl font-bold">Hello</h1>;
+import SimpleWalletApp from "./SimpleWalletApp";
+
+export const App = () => <SimpleWalletApp />;

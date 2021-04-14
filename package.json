@@ -8,12 +8,14 @@
 		"compile": "electron-webpack",
 		"dist": "yarn compile && electron-builder",
 		"dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
-		"lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+		"lint": "eslint . --ext .tsx --ext .ts --quiet --fix",
 		"test": "jest --watch",
 		"postinstall": "husky install",
 		"prepare": "husky install"
 	},
 	"dependencies": {
+		"@arkecosystem/client": "^2.0.0",
+		"axios": "^0.21.1",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
 		"source-map-support": "^0.5.19",
