@@ -1,0 +1,95 @@
+@font-face {
+	font-family: "Inter";
+	src: local("Inter"),
+		url("./assets/Fonts/Inter-Black-slnt=0.ttf") format("truetype");
+	font-weight: "black";
+}
+@font-face {
+	font-family: "Inter";
+	src: local("Inter"),
+		url("./assets/Fonts/Inter-Bold-slnt=0.ttf") format("truetype");
+	font-weight: "bold";
+}
+@font-face {
+	font-family: "Inter";
+	src: local("Inter"),
+		url("./assets/Fonts/Inter-ExtraBold-slnt=0.ttf") format("truetype");
+	font-weight: "extra-bold";
+}
+@font-face {
+	font-family: "Inter";
+	src: local("Inter"),
+		url("./assets/Fonts/Inter-Light-slnt=0.ttf") format("truetype");
+	font-weight: "light";
+}
+@font-face {
+	font-family: "Inter";
+	src: local("Inter"),
+		url("./assets/Fonts/Inter-Medium-slnt=0.ttf") format("truetype");
+	font-weight: "medium";
+}
+@font-face {
+	font-family: "Inter";
+	src: local("Inter"),
+		url("./assets/Fonts/Inter-Regular-slnt=0.ttf") format("truetype");
+	font-weight: "regular";
+}
+
+@font-face {
+	font-family: "Inter";
+	src: local("Inter"),
+		url("./assets/Fonts/Inter-SemiBold-slnt=0.ttf") format("truetype");
+	font-weight: "semi-bold";
+}
+@font-face {
+	font-family: "Inter";
+	src: local("Inter"),
+		url("./assets/Fonts/Inter-Thin-slnt=0.ttf") format("truetype");
+	font-weight: "thin";
+}
+
+h1 {
+	font-family: "Inter";
+	font-weight: "Extra Bold";
+	font-size: 36px;
+	line-height: 48px;
+	color: #1f2121;
+}
+
+h2 {
+	font-family: "Inter";
+	font-weight: "Bold", "Extra Bold";
+	font-size: 24px;
+	line-height: 36px;
+	color: #1f2121;
+}
+
+h3 {
+	font-family: "Inter";
+	font-weight: "Semi Bold", "Bold";
+	font-size: 18px;
+	line-height: 32px;
+	color: #1f2121;
+}
+
+.main-font {
+	font-family: "Inter";
+	font-weight: bold;
+	font-size: 16px;
+	/* color: #5A5D60; */
+}
+
+.auxiliary-font {
+	font-family: "Inter";
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #5a5d60;
+}
+
+.logo-font {
+	font-family: "Inter";
+	font-weight: bold;
+	font-size: 24px;
+	color: #ffffff;
+}

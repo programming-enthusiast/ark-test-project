@@ -1,0 +1,111 @@
+.custom-select-wrapper {
+	position: relative;
+	user-select: none;
+	width: 100%;
+}
+.custom-select {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	/* width: 404px; */
+	height: 57px;
+	border-width: 2px 2px 2px 2px;
+	border-style: solid;
+	border-color: #2f3333;
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+.custom-select:hover {
+	border-color: #029383;
+}
+.custom-select__trigger {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #b6bebe;
+	height: 53px;
+	line-height: 53px;
+	cursor: pointer;
+	font-family: "Inter";
+	font-weight: "semi-bold";
+}
+.custom-options {
+	position: absolute;
+	display: block;
+	top: 100%;
+	left: -44px;
+	right: 0;
+	margin-top: 3px;
+	border: 2px solid #2f3333;
+	border-radius: 10px;
+	background: #2f3333;
+	transition: all 0.5s;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	z-index: 2;
+	font-family: "Inter";
+	font-weight: "semi-bold";
+}
+.custom-select.open .custom-options {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: all;
+}
+.custom-option {
+	position: relative;
+	display: block;
+	padding: 0 10px 0 10px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #ffffff;
+	background: #2f3333;
+	line-height: 45px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.custom-option.selected {
+	color: #ffffff;
+	background-color: #5a5d60;
+}
+.custom-option:hover {
+	cursor: pointer;
+	background-color: #046e62;
+	color: #ffffff;
+}
+.arrow {
+	position: relative;
+	height: 10px;
+	width: 10px;
+}
+.arrow::before,
+.arrow::after {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	width: 0.15rem;
+	height: 100%;
+	transition: all 0.2s;
+}
+.arrow::before {
+	left: -3px;
+	transform: rotate(-45deg);
+	background-color: #394a6d;
+}
+.arrow::after {
+	left: 3px;
+	transform: rotate(45deg);
+	background-color: #394a6d;
+}
+.open .arrow::before {
+	left: -3px;
+	transform: rotate(45deg);
+}
+.open .arrow::after {
+	left: 3px;
+	transform: rotate(-45deg);
+}

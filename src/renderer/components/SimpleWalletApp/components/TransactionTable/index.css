@@ -1,0 +1,25 @@
+.table-header-font {
+	font-family: "Inter";
+	font-weight: "bold";
+	font-size: 16px;
+	color: #b6bebe;
+}
+
+.table-black-font {
+	font-family: "Inter";
+	font-weight: 700;
+	font-size: 16px;
+	color: #5a5d60;
+}
+
+a {
+	color: #029383;
+}
+
+a:hover {
+	color: #046e62;
+}
+
+a:active {
+	color: #65b7ae;
+}
