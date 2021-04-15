@@ -55,5 +55,14 @@ $ yarn storybook
 ```
 You can now access http://localhost:6006 and see how the InputFee component works.
 
+## How to use the InputFee component
+```
+export const App = () => {
+  const onChange = (value: number) => {
+    console.log("onChange fired", value);
+  };
+  return <InputFee width="400" fieldName="Input Fee" onChange={onChange} />;
+};
+```
 
 
