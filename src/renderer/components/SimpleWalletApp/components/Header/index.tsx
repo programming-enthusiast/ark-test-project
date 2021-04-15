@@ -19,10 +19,11 @@ const walletAddreses = [
 ];
 
 const Header = () => {
-	const { wallets, setWallets } = useContext(TransactionDataContext);
+	const { setLoading, setWallets } = useContext(TransactionDataContext);
 
 	useEffect(() => {
 		const wallets: Array<Wallet> = [];
+		setLoading(true);
 		Promise.all(
 			walletAddreses.map(async (item: string) => {
 				const response = (
@@ -49,7 +50,6 @@ const Header = () => {
 				const walletInfo = (
 					await axios.get(`${API_BASE_URL}/wallets/${item}`)
 				).data.data;
-				console.log("walletInfo======", walletInfo);
 				const wallet: Wallet = {
 					address: item,
 					balance: parseInt(walletInfo.balance),
@@ -59,8 +59,8 @@ const Header = () => {
 				wallets.push(wallet);
 			})
 		).then((res) => {
+			setLoading(false);
 			setWallets(wallets);
-			console.log("============", wallets);
 		});
 	}, []);
 

@@ -15,6 +15,8 @@ export interface Wallet {
 }
 
 export interface TransactionDataContextType {
+	isLoading: boolean;
+	setLoading: (loading: boolean) => void;
 	wallets: Array<Wallet>;
 	setWallets: (wallets: Array<Wallet>) => void;
 	currentWalletIndex: number;
