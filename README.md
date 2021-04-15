@@ -39,3 +39,21 @@ Using the TypeScript Client packages, create a simplistic wallet with the follow
 The second task for this assignment is to implement the fee input from the designs. In addition to the designs, we have prepared tests for this component. You should use the tests in a TDD manner to figure out the functional requirements. Tests are provided in the .ZIP file that was shared with you. Slider range can go from 0 (min value) to 5 (max value).
 
 You can add your component to the Task 1 codebase and provide instructions in your readme on how to include it (so we can add it to a part of the Task 1 wallet locally to see it in action).
+
+# Implementation
+
+## How to run this project
+```
+$ yarn dev
+```
+You can run the project using the command above.
+
+## How to see the InputFee component in action
+You can confirm the InputFee component using StoryBook.
+```
+$ yarn storybook
+```
+You can now access http://localhost:6006 and see how the InputFee component works.
+
+
+
