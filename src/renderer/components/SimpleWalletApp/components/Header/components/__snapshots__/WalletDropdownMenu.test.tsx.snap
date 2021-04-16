@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WalletDropdownMenu Component should render correctly 1`] = `
+<div
+  className="mx-40px my-auto lg:m-auto flex"
+  id="wallet-dropdown-menu"
+>
+  <div
+    className="hidden sm:flex w-51px h-57px rounded-l-full"
+    id="wallet-icon"
+    style={
+      Object {
+        "background": "#2F3333",
+      }
+    }
+  >
+    <img
+      className=" m-auto w-1/3 h-1/3"
+      src="address.svg"
+    />
+    <img
+      className="hidden m-auto w-1/3 h-1/3"
+      src="address-hover.svg"
+    />
+  </div>
+  <div
+    className="custom-select-wrapper w-247px md:w-461px lg:w-557px xl:w-302px xxl:w-404px"
+    id="dropdown-menu-wrapper"
+  >
+    <div
+      className="custom-select w-full lg:w-557px xl:w-302px xxl:w-404px "
+    >
+      <div
+        className="custom-select__trigger"
+        onClick={[Function]}
+      >
+        <span
+          className="overflow-hidden overflow-ellipsis"
+        >
+          DR7WwjwGdw6mXoBrispUcTUHVV31AkAfs5
+        </span>
+        <div
+          className="arrow"
+        />
+      </div>
+      <div
+        className="custom-options"
+      >
+        <span
+          className="custom-option overflow-hidden overflow-ellipsis selected"
+          data-value="DR7WwjwGdw6mXoBrispUcTUHVV31AkAfs5"
+          onClick={[Function]}
+        >
+          DR7WwjwGdw6mXoBrispUcTUHVV31AkAfs5
+        </span>
+        <span
+          className="custom-option overflow-hidden overflow-ellipsis"
+          data-value="D6Z26L69gdk9qYmTv5uzk3uGepigtHY4ax"
+          onClick={[Function]}
+        >
+          D6Z26L69gdk9qYmTv5uzk3uGepigtHY4ax
+        </span>
+        <span
+          className="custom-option overflow-hidden overflow-ellipsis"
+          data-value="DNPBUxxGQUKDPX3XKUXa3pc4GK8yz7L97T"
+          onClick={[Function]}
+        >
+          DNPBUxxGQUKDPX3XKUXa3pc4GK8yz7L97T
+        </span>
+        <span
+          className="custom-option overflow-hidden overflow-ellipsis"
+          data-value="DRgF3PvzeGWndQjET7dZsSmnrc6uAy23ES"
+          onClick={[Function]}
+        >
+          DRgF3PvzeGWndQjET7dZsSmnrc6uAy23ES
+        </span>
+        <span
+          className="custom-option overflow-hidden overflow-ellipsis"
+          data-value="DRHPX3fxEvXrKPmuy9RstC2gqNWdz5DDNk"
+          onClick={[Function]}
+        >
+          DRHPX3fxEvXrKPmuy9RstC2gqNWdz5DDNk
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

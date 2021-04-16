@@ -1,0 +1,1864 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkeletonTable Component should render correctly 1`] = `
+<div
+  className="undefined flex"
+>
+  <table
+    className="m-auto hidden lg:block"
+  >
+    <tr
+      className="table-header-font"
+    >
+      <th
+        className="text-left py-16px px-20px border-2 border-gray-200"
+      >
+        txid
+      </th>
+      <th
+        className="text-left py-16px px-20px border-2 border-gray-200"
+      >
+        sender
+      </th>
+      <th
+        className="text-left py-16px px-20px border-2 border-gray-200"
+      >
+        recipient
+      </th>
+      <th
+        className="table-cell lg:hidden xxl:table-cell text-center py-16px px-20px border-2 border-gray-200"
+      >
+        timestamp
+      </th>
+      <th
+        className="text-right py-16px px-20px border-2 border-gray-200"
+      >
+        amount
+      </th>
+      <th
+        className="table-cell lg:hidden xl:table-cell text-right py-16px px-20px border-2 border-gray-200"
+      >
+        fee
+      </th>
+    </tr>
+    <tr
+      className="table-black-font border-gray-200 border-b-2"
+    >
+      <td
+        className="relative lg:w-56px xl:w-150px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xxl:table-cell w-100px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-250px xl:w-250px xxl:w-350px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xl:table-cell w-200px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+    </tr>
+    <tr
+      className="table-black-font border-gray-200 border-b-2"
+    >
+      <td
+        className="relative lg:w-56px xl:w-150px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xxl:table-cell w-100px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-250px xl:w-250px xxl:w-350px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xl:table-cell w-200px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+    </tr>
+    <tr
+      className="table-black-font border-gray-200 border-b-2"
+    >
+      <td
+        className="relative lg:w-56px xl:w-150px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xxl:table-cell w-100px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-250px xl:w-250px xxl:w-350px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xl:table-cell w-200px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+    </tr>
+    <tr
+      className="table-black-font border-gray-200 border-b-2"
+    >
+      <td
+        className="relative lg:w-56px xl:w-150px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xxl:table-cell w-100px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-250px xl:w-250px xxl:w-350px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xl:table-cell w-200px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+    </tr>
+    <tr
+      className="table-black-font border-gray-200 border-b-2"
+    >
+      <td
+        className="relative lg:w-56px xl:w-150px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xxl:table-cell w-100px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-250px xl:w-250px xxl:w-350px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xl:table-cell w-200px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+    </tr>
+    <tr
+      className="table-black-font border-gray-200 border-b-2"
+    >
+      <td
+        className="relative lg:w-56px xl:w-150px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-200px py-16px px-20px overflow-hidden overflow-ellipsis"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xxl:table-cell w-100px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative w-250px xl:w-250px xxl:w-350px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+        <div
+          className="absolute right-0 top-0 w-2px h-full py-16px "
+        >
+          <div
+            className="bg-gray-200 w-full h-full"
+          />
+        </div>
+      </td>
+      <td
+        className="relative table-cell lg:hidden xl:table-cell w-200px py-16px px-20px"
+      >
+        <span>
+          <span
+            className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+            style={Object {}}
+          >
+            ‌
+          </span>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <div
+    className="block lg:hidden w-full h-full table-black-font"
+  >
+    <div
+      className="flex flex-col mx-31px"
+    >
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Txid
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Sender
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Recipient
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Timestamp
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Amount
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 150,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Fee
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="w-full h-1px bg-font-color2 my-31px"
+      />
+    </div>
+    <div
+      className="flex flex-col mx-31px"
+    >
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Txid
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Sender
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Recipient
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Timestamp
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Amount
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 150,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Fee
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="w-full h-1px bg-font-color2 my-31px"
+      />
+    </div>
+    <div
+      className="flex flex-col mx-31px"
+    >
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Txid
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Sender
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Recipient
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Timestamp
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Amount
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 150,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Fee
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="w-full h-1px bg-font-color2 my-31px"
+      />
+    </div>
+    <div
+      className="flex flex-col mx-31px"
+    >
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Txid
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Sender
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Recipient
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Timestamp
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Amount
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 150,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Fee
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="w-full h-1px bg-font-color2 my-31px"
+      />
+    </div>
+    <div
+      className="flex flex-col mx-31px"
+    >
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Txid
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Sender
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Recipient
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Timestamp
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Amount
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 150,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Fee
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="w-full h-1px bg-font-color2 my-31px"
+      />
+    </div>
+    <div
+      className="flex flex-col mx-31px"
+    >
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Txid
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Sender
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-10px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Recipient
+        </div>
+        <div
+          className="hidden sm:hidden md:block float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 230,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          className="block sm:block md:hidden float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 130,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Timestamp
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Amount
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 150,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="my-16px"
+      >
+        <div
+          className="float-left text-font-color2"
+        >
+          Fee
+        </div>
+        <div
+          className="float-right text-font-color1"
+        >
+          <span>
+            <span
+              className="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style={
+                Object {
+                  "height": 25,
+                  "width": 100,
+                }
+              }
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="w-full h-1px bg-font-color2 my-31px"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TransactionTable Component should render correctly 1`] = `
+<div
+  className="text-center"
+>
+  No Data
+</div>
+`;

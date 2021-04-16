@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component should render correctly 1`] = `
+<div
+  className="fixed bottom-0 left-0 text-center w-full py-16px bg-footer-background main-font text-font-color1"
+>
+  2021 @ ARK.io | All rights reserved
+</div>
+`;
