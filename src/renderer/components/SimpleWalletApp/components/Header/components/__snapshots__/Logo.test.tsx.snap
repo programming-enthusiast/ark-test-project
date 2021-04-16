@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Component should render correctly 1`] = `
+<div
+  className="my-auto ml-40px lg:m-auto  flex"
+>
+  <img
+    className="w-56px h-56px lg:m-auto"
+    src="logo.svg"
+  />
+  <h1
+    className="logo-font inline m-auto ml-10px block lg:hidden xxl:block"
+  >
+    ARK Wallet
+  </h1>
+</div>
+`;
